@@ -2,8 +2,9 @@
 
 # How do I translate into (sentential) logic? 
 ## Part 1
+[Back to the landing page](https://carnap.io/shared/emeskhid@uci.edu/0landingPage.md)
 
-<br>
+<!-- <video controls width="700" src=""/> </video> -->
 
 
 
@@ -19,11 +20,13 @@ Here is an easy three-step recipe for translating:
 
 <br>
 
-## Two quick notes about the translation-checker
+## A few quick notes about the translation-checker
 
-1. It assumes that you remember how to type the logical symbols. If you need a refreshed on this, consider reviewing [how to type the connectives on the keyboard](https://carnap.io/shared/walsh@g.ucla.edu/book-prop-main-connectives.pandoc#typing-the-connectives-on-the-keyboard).
+1. It assumes that you remember how to type the logical symbols. If you need a refreshed on this, consider reviewing [how to type the connectives on the keyboard](https://carnap.io/shared/emeskhid@uci.edu/0CourseInfo.md#typing-the-connectives).
 
-2. Press **return** to check your answer.
+2. You type your translation in the top box. Replace the English sentence(s) there with your logical expression.
+
+3. Press **return** to check your answer.
 
 <br>
 
@@ -43,7 +46,7 @@ In the following examples, we use the abbreviations:
 
 
 ~~~{.Translate .Prop system="gamutPND" submission="none"}
-  a /\ b : Either Anthony attends the meeting or Briana does not stay at the office.
+  a \/ ~b : Either Anthony attends the meeting or Briana does not stay at the office.
 ~~~
 
 
