@@ -90,6 +90,8 @@ Every student is entitled to a meaningful and stimulating learning experience. P
 
 In this course, we will be using Carnap. This is to make sure you have a lot of practice with truth tables and proofs. Carnap can be a bit tricky to get the hang of, but I'll have a video for each new type of excercise we encounter as we go. Please note that though your weekly assignments will be completed through Carnap, you will need to submit weekly reflections through Canvas. Additionally, your problem sets will have to be completed by hand (i.,e., you'll have to draw out the whole truth table or construct the proof). If you're ever unsure how to do this, you can check how we did it in Carnap and copy the format. 
 
+<br> 
+
 ## Typing the connectives
 
 One more thing: In the exercises, we will sometimes be typing the logical connectives on the keyboard. For that purpose, we use the following keys:
