@@ -30,7 +30,7 @@ Here is an easy three-step recipe for translating:
 
 <br>
 
-## Further examples
+## Translations 
 
 In the following examples, we use the abbreviations:
 
@@ -39,11 +39,17 @@ In the following examples, we use the abbreviations:
 <p style="margin-left: 40px"> $b$ = Briana stays at the office</p>
 
 
+<video controls width="500" src="https://helenmeskhidze.github.io/Examples%20for%20videos/Translation.mp4" /> </video> 
+
+Example to follow along with the video-- translate the following: 
 
 ~~~{.Translate .Prop system="gamutPND" submission="none"}
   a /\ b : Anthony attends the meeting and Briana stays at the office.
 ~~~
 
+## Translation Excercises
+
+Use the same abbreviations as above to translate: 
 
 ~~~{.Translate .Prop system="gamutPND" submission="none"}
   a \/ ~b : Either Anthony attends the meeting or Briana does not stay at the office.
