@@ -48,3 +48,8 @@ Notes: You must fill in all the rows of the truth table. In the below excercises
 ~~~
 ## How does this work by hand? 
 Here is a video working the same example as the above video but by hand. (Remember your problem sets will be done by hand!)
+
+
+<video controls width="500" src="https://helenmeskhidze.github.io/Examples%20for%20videos/TruthTablesByHandExample.mp4" /> </video> 
+
+<br>
