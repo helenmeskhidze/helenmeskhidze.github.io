@@ -3,7 +3,14 @@
 # What's this class about?
 [Back to the landing page](https://carnap.io/shared/emeskhid@uci.edu/0landingPage.md)
 
-<video controls width="500" src="https://www.youtube.com/embed/hL9IRuIZOAQ" /> </video>
+<video controls width="500" src="https://helenmeskhidze.github.io/Videos/w1/What's%20this%20class%20about%3F.mp4" /> </video>
+
+*To watch the above video with captions, [see here](https://youtu.be/hL9IRuIZOAQ).*
+
+<div> 
+
+***
+
 
 Heads up! These are our first multiple choice questions on Carnap. You click your answer and then click "Check." Because we're only looking for completion, feel free to check until you get the correct answer. 
 

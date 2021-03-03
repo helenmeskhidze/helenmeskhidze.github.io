@@ -5,7 +5,11 @@
 [Back to the landing page](https://carnap.io/shared/emeskhid@uci.edu/0landingPage.md)
 
 
-<!-- <video controls width="700" src=""/> </video> -->
+<video controls width="500" src="https://helenmeskhidze.github.io/Videos/w1/How%20do%20I%20translate%20English%20into%20Sentential%20Logic%3F%20p2.mp4" /> </video>
+
+*To watch the above video with captions, [see here](https://youtu.be/u-LhfcbTNzc).*
+
+*** 
 
 ### Translation Excercises 
 In the following examples, we use the abbreviations:

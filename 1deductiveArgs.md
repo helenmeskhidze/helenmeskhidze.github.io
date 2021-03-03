@@ -3,7 +3,11 @@
 # How can a deductive argument go wrong?
  [Back to the landing page](https://carnap.io/shared/emeskhid@uci.edu/0landingPage.md)
 
-<!-- <video controls width="700" src=""/> </video> -->
+<video controls width="500" src="https://helenmeskhidze.github.io/Videos/w1/How%20can%20a%20deductive%20argument%20go%20wrong%3F.mp4" /> </video>
+
+*To watch the above video with captions, [see here](https://youtu.be/CNf1s_CsvTk).*
+
+***
 
 ```{.QualitativeProblem .MultipleChoice options="check" submission="none"} 
  Which of the following is true? 

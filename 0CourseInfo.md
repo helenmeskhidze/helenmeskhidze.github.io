@@ -90,6 +90,8 @@ Every student is entitled to a meaningful and stimulating learning experience. P
 
 In this course, we will be using Carnap. This is to make sure you have a lot of practice with truth tables and proofs. Carnap can be a bit tricky to get the hang of, but I'll have a video for each new type of excercise we encounter as we go. Please note that though your weekly assignments will be completed through Carnap, you will need to submit weekly reflections through Canvas. Additionally, your problem sets will have to be completed by hand (i.,e., you'll have to draw out the whole truth table or construct the proof). If you're ever unsure how to do this, you can check how we did it in Carnap and copy the format. 
 
+One very annoying thing about Carnap is that it will not show your submitted work to you. We will have a record of what you've submitted on our end, but you won't be able to go back and see your answers. Whenever you want a record of your answer, please take a screenshot or jot down your responses!
+
 <br> 
 
 ## Typing the connectives
@@ -136,5 +138,5 @@ One more thing: In the exercises, we will sometimes be typing the logical connec
 
 <br>
 
-Note that for conjunction and disjunction, you actually have to press two keys on your keyboard to form the symbol: they formed by putting the two slash buttons `/` and `\` side by side.
+Conjunction and disjunction are putting the two slash buttons `/` and `\` side by side.
 

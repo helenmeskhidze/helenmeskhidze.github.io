@@ -3,15 +3,20 @@
 # What are truth tables?
 [Back to the landing page](https://carnap.io/shared/emeskhid@uci.edu/0landingPage.md)
 
-<!-- <video controls width="700" src=""/> </video> -->
+<video controls width="500" src="https://helenmeskhidze.github.io/Videos/w1/What%20are%20truth%20tables%3F.mp4" /> </video>
 
+*To watch the above video with captions, [see here](https://youtu.be/zaztEXoPmaI).*
+
+
+
+***
 
 Note: The truth-tables below come pre-populated with a row corresponding to each combination of the truth-values of the basic propositional letters. In the examples below, there are two basic propositional letters $p$ and $q$, and so there are four rows. (Consider why? How many rows would we need for 3 propositional letters? 4?)
 
 *Tip: Work from the inside out! First, look inside the parenthesis and work your way out.*
 
 
-<video controls width="500" src="https://helenmeskhidze.github.io/Examples%20for%20videos/TruthTables.mp4" /> </video> 
+<video controls width="300" src="https://helenmeskhidze.github.io/Examples%20for%20videos/TruthTables.mp4" /> </video> 
 
 Example truth table to follow along with the video: 
 

@@ -7,7 +7,7 @@
 
 #### Instructor: Helen Meskhidze[^1]
 #### TAs: 
-####[Course Information](https://carnap.io/shared/emeskhid@uci.edu/0CourseInfo.md)
+#### [Course Information](https://carnap.io/shared/emeskhid@uci.edu/0CourseInfo.md)
 #### Quick Links: 
 - [Course Canvas Page](https://canvas.eee.uci.edu/courses/35078)
 - [Join the course Discord](https://discord.gg/j6zwTvGgqK) 

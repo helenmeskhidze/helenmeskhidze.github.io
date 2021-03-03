@@ -23,7 +23,6 @@ To assess soundness we need to agree on what is true and what is false. While th
 7. UC Berkeley, California, acceptance rate 17%
 8. Cornell, New York, acceptance rate 14%
 
-*Problem 16*
 
 The following are four valid arguments which would be translated by substitution instances of modus ponens. But only one of the arguments is sound. Which one is it?
 
@@ -35,7 +34,6 @@ The following are four valid arguments which would be translated by substitution
 | * If Harvard is in Massachusetts then Harvard is in the same state as MIT. Harvard is in Massachusetts. Therefore Harvard is in the same state as MIT.
 ```
 
-*Problem 17*
 
 The following are four valid arguments which would be translated by substitution instances of modus tollens (perhaps together with some replacement using double-negation). But only one of the arguments is sound. Which one is it?
 
@@ -47,7 +45,6 @@ The following are four valid arguments which would be translated by substitution
 | If Cal Tech is in California then Cal Tech is in the same state as Cornell. Cal Tech is not in the same state as Cornell. Therefore Cal Tech is not in California.
 ```
 
-*Problem 18*
 
 The following are four valid arguments which would be translated by substitution instances of disjunctive syllogism (perhaps together with some DeMorgan and double-negation). But only one of the arguments is sound. Which one is it? (In this problem, take "lowest acceptance rate in the state" to be shorthand for "lowest acceptance rate in the state of the colleges displayed in the list above." Also, in this problem, you'll probably have to actually look at the list of acceptance rates up above.)
 
@@ -59,7 +56,6 @@ The following are four valid arguments which would be translated by substitution
 | *Not both Harvard and MIT have the lowest acceptance rate in Massachusetts. Harvard has the lowest acceptance rate in Massachusetts. Therefore, MIT does not have the lowest acceptance rate in Massachusetts.
 ```
 
-*Problem 19*
 
 Consider the argument: "If Cal Tech has a lower acceptance rate than Cornell, then Cal Tech has a lower acceptance rate than UC Berkeley. Cal Tech has a lower acceptance rate than UC Berkeley. Therefore, Cal Tech has a lower acceptance rate than Cornell."
 
@@ -73,7 +69,6 @@ Which of the following describes this argument:
 | The argument is invalid and has a false premise or a false conclusion.
 ```
 
-*Problem 20*
 
 Consider the argument: "If Cornell does not have a lower acceptance rate than Columbia, then Cornell has a lower acceptance rate than Princeton. Cornell does not have a lower acceptance rate than Columbia. Therefore, Cornell has a lower acceptance rate than Princeton."
 
