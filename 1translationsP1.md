@@ -50,13 +50,12 @@ Example to follow along with the video-- translate the following:
   a /\ b : Anthony attends the meeting and Briana stays at the office.
 ~~~
 
-## Translation Excercises
+## Translation Exercises
 
 Use the same abbreviations as above (copied again below) to translate:
 
 <p style="margin-left: 40px"> $a$ = Anthony attends the meeting</p>
 <p style="margin-left: 40px"> $b$ = Briana stays at the office</p>
-
 
 
 ~~~{.Translate .Prop system="gamutPND" submission="none"}
@@ -71,3 +70,18 @@ Use the same abbreviations as above (copied again below) to translate:
 ~~~{.Translate .Prop system="gamutPND" submission="none"}
  ~b->~a : If Briana does not stay at the office, then Anthony does not attend the meeting.
 ~~~
+
+***
+
+### One more friendly reminder that negation is not the same thing as opposite.  
+
+Some examples from Eugenia Cheng's book *The Art of Logic in an Illogical World*:
+<br>
+
+![Negation vs Opposite Example 1](https://helenmeskhidze.github.io/Images/NegationOpposite1.png)
+
+<br>
+
+![Negation vs Opposite Example 2](https://helenmeskhidze.github.io/Images/NegationOpposite2.png)
+
+Cheng asks us to image a greyscale from white to black. On the one hand, saying something is the opposite of white means that it's black. On the other hand, saying something is not white could mean its a little grey, pretty grey, almost black, or all black.

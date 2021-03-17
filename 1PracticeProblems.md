@@ -1,83 +1,127 @@
 <br>
 
-# Week 1 Practice Problems 
-[Back to the landing page](https://carnap.io/shared/emeskhid@uci.edu/0landingPage.md)
+# Week 1 Practice Problems
+[Back to the landing page](https://carnap.io/shared/emeskhid@uci.edu/0landingPage.md) <br>
+[Back to the Week 1 materials](https://carnap.io/shared/emeskhid@uci.edu/1Week.md)
 
-*Please complete the problems below. This assignment will be graded for completion and the solutions will be posted a day after the assignment is due. I will ask you to reflect on these problems as part of your assignment next week.* 
-*** 
+*Please complete the problems below by 5pm Friday April 2. This assignment will be graded for completion and 20% of the assignment grade is the reflection you will submit on Canvas (due Saturday, April 3 at 5pm).
+<br>
+Please make sure you click submit or your answer will not be recorded! Note also that Carnap will not show you which questions you've submitted if you reload the page, so either complete them all in one sitting or keep your own record of what you've submitted.*
+***
+
+This set of practice problems consists of 16 problems falling into 4 categories:
+  - general content questions
+  - questions about wffs
+  - practice with translations
+  - practice with truth tables
+
+### General content questions
+
+~~~{.QualitativeProblem .MultipleChoice points=".25" options="check"}
+1.1 In ((A\/B)->C) what do we call the ->?
+| * The main connective.
+| The minor connective.
+| The truth functional connective.
+
+1.2 What do we call A in A->B?
+| * Antecedent.
+| Consequent.
+| Implicative.
+
+1.3 What do we call A and B in A\/B?
+| Antecedents.
+| * Disjuncts.
+| Consequents.
+| Either...or.
+
+1.4 Which of the following is impossible?
+| a valid unsound argument
+| a valid sound argument
+| *an invalid sound argument
+| an invalid unsound argument
+
+1.5 Why do we have strict rules for what counts as a wff?
+| to make translations easier
+| *to eliminate ambiguities
+| to eliminate redundancies
+~~~
+
+### Questions about wffs
+
+~~~{.QualitativeProblem .MultipleChoice points=".25" options="check"}
+2.1 Is P a well-formed formula (wff)?
+| *yes
+| no
+
+2.2 Is (~~~R) a wff?
+| yes
+| *no
+
+2.3 Is (~~~R/\A) a wff?
+| *yes
+| no
+
+2.4 Is (P->(Q->R(->S))) a wff?
+| yes
+| *no
+
+2.5 Is (P->(Q->(R->S))) a wff?
+| *yes
+| no
+~~~
+
+### Practice with translations
 
 
+<p style="margin-left: 40px"> $p=$ it appears that the $p$rosecution has failed to prove an essential element of the offense  </p>
+<p style="margin-left: 40px"> $e=$ its $e$vidence has been discredited in cross-examination </p>
+<p style="margin-left: 40px"> $n=$ there is $n$o case to answer </p>
+<p style="margin-left: 40px"> $d=$ the $d$efense responds </p>
+
+~~~{.Translate .Prop system="gamutPND" options="check" points=".25"}
+3.1 (p\/e)->(n/\~d) : If it appears that the prosecution has failed to prove an essential element of the offense, or if its evidence has been discredited in cross-examination, there is no case to answer and the defense does not respond.
+
+3.2 (d->(~e/\~p)) : If the defense responds, then it was neither the case that the evidence was discredited in cross-examination nor that the prosecution failed to prove an essential element of the offense.
+~~~
+
+<p style="margin-left: 40px"> $p=$ a $p$atient was considered to have a previous diagnosis of asthma </p>
+<p style="margin-left: 40px"> $e=$ they were $e$nrolled in the pulmonary clinic with the diagnosis of asthma </p>
+<p style="margin-left: 40px"> $r=$ they were $r$eceiving therapy </p>
+
+~~~{.Translate .Prop system="gamutPND" options="check" points=".25"}
+
+3.3 (e/\r)->p : A patient was considered to have a previous diagnosis of asthma if they were enrolled in the pulmonary clinic with the diagnosis of asthma and they were receiving chronic bronchodilator therapy.
+
+3.4 (e/\(r/\f))->p : A patient is considered to have a previous is both receiving therapy and enrolled in a pulmonary clinic
+
+~~~
 
 
+### Practice with truth tables
 
-## Assessing soundness
+The following homework problems are intended to help you *internalize* truth-tables for the propositional connectives. Only one of the rows are given, and this is designed to help you *internalize* the truth-tables row-by-row, and to make sure that your recall of this is not tied to the particular order we happened to enumerate the rows in.
 
-To assess soundness we need to agree on what is true and what is false. While this is a hard thing to do in general, in the following five problems we simplify this by assuming that the following eight facts about collges and their location and acceptance rates are all true (these were obtained by searching "US colleges" on google, which strangely leads to a google page that does not have an obvious link):
+~~~{.TruthTable .Partial system="gamutPND" options="check nodash nocounterexample autoAtoms"  points=".25"}
+4.1 p/\q
+| F - F
+~~~
 
-1. Harvard, Massachusetts, acceptance rate 5%
-2. Princeton, New Jersey, acceptance rate 7%
-3. MIT, Massachusetts, acceptance rate 8%
-4. Columbia, New York, acceptance rate 7%
-5. Yale, Connecticut,  acceptance rate 6%
-6. Cal Tech, California, acceptance rate 8%
-7. UC Berkeley, California, acceptance rate 17%
-8. Cornell, New York, acceptance rate 14%
+~~~{.TruthTable .Partial system="gamutPND" options="nodash nocounterexample autoAtoms"  points=".25"}
+4.2 p\/q
+| F - F
+~~~
 
+~~~{.TruthTable .Partial system="gamutPND" options="nodash nocounterexample autoAtoms"  points=".25"}
+4.3 p->q
+| F - F
+~~~
 
-The following are four valid arguments which would be translated by substitution instances of modus ponens. But only one of the arguments is sound. Which one is it?
+~~~{.TruthTable .Partial system="gamutPND" options="nodash nocounterexample autoAtoms"  points=".25"}
+4.4 p/\q
+| T - F
+~~~
 
-```{.QualitativeProblem .MultipleChoice options="check" submission="none"}
- Which one is sound?
-| If Harvard is in Connecticut then Harvard is in the same state as MIT. Harvard is in Connecticut. Therefore Harvard is in the same state as MIT.
-| If Yale is in Massachusetts then Yale is in the same state as MIT. Yale is in Massachusetts. Therefore Yale is in the same state as MIT.
-| If Yale is in Connecticut then Yale is in the same state as MIT. Yale is in Connecticut. Therefore Yale is in the same state as MIT.
-| * If Harvard is in Massachusetts then Harvard is in the same state as MIT. Harvard is in Massachusetts. Therefore Harvard is in the same state as MIT.
-```
-
-
-The following are four valid arguments which would be translated by substitution instances of modus tollens (perhaps together with some replacement using double-negation). But only one of the arguments is sound. Which one is it?
-
-```{.QualitativeProblem .MultipleChoice options="check" submission="none"}
-  Which one is sound?
-| If Columbia is in New York then Columbia is not in the same state as Princeton. Columbia is in the same state as Princeton. Therefore Columbia is not in New York.
-| *If Columbia is in New Jersey then Columbia is in the same state as Princeton. Columbia is not in the same state as Princeton. Therefore Columbia is not in New Jersey.
-| If Cal Tech is not in New Jersey then Cal Tech is in the same state as Princeton. Cal Tech is not in the same state as Princeton. Therefore Cal Tech is in New Jersey.
-| If Cal Tech is in California then Cal Tech is in the same state as Cornell. Cal Tech is not in the same state as Cornell. Therefore Cal Tech is not in California.
-```
-
-
-The following are four valid arguments which would be translated by substitution instances of disjunctive syllogism (perhaps together with some DeMorgan and double-negation). But only one of the arguments is sound. Which one is it? (In this problem, take "lowest acceptance rate in the state" to be shorthand for "lowest acceptance rate in the state of the colleges displayed in the list above." Also, in this problem, you'll probably have to actually look at the list of acceptance rates up above.)
-
-```{.QualitativeProblem .MultipleChoice options="check" submission="none"}
-  Which one is sound?
-| Not both Harvard and MIT have the lowest acceptance rate in Massachusetts. MIT has the lowest acceptance rate in Massachusetts. Therefore, Harvard does not have the lowest acceptance rate in Massachusetts.
-| Harvard or MIT has the lowest acceptance rate in Massachusetts. Harvard does not have the lowest acceptance rate in Massachusetts. Therefore, MIT has the lowest acceptance rate in Massachusetts.
-| MIT has the lowest acceptance rate in Massachusetts. Not both Harvard and MIT have the lowest acceptance rate in Massachusetts.  Therefore, Harvard does not have the lowest acceptance rate in Massachusetts.
-| *Not both Harvard and MIT have the lowest acceptance rate in Massachusetts. Harvard has the lowest acceptance rate in Massachusetts. Therefore, MIT does not have the lowest acceptance rate in Massachusetts.
-```
-
-
-Consider the argument: "If Cal Tech has a lower acceptance rate than Cornell, then Cal Tech has a lower acceptance rate than UC Berkeley. Cal Tech has a lower acceptance rate than UC Berkeley. Therefore, Cal Tech has a lower acceptance rate than Cornell."
-
-Which of the following describes this argument:
-
-```{.QualitativeProblem .MultipleChoice options="check" submission="none"}
-  Which best describes the argument?
-| The argument is sound
-| The argument is unsound but valid.
-| *The argument is invalid but has all true premises and a true conclusion.
-| The argument is invalid and has a false premise or a false conclusion.
-```
-
-
-Consider the argument: "If Cornell does not have a lower acceptance rate than Columbia, then Cornell has a lower acceptance rate than Princeton. Cornell does not have a lower acceptance rate than Columbia. Therefore, Cornell has a lower acceptance rate than Princeton."
-
-Which of the following describes this argument:
-
-```{.QualitativeProblem .MultipleChoice options="check" submission="none"}
-  Which best describes the argument?
-| The argument is sound
-| *The argument is unsound but valid.
-| The argument is invalid but has all true premises and a true conclusion.
-| The argument is invalid and has a false premise or a false conclusion.
-```
+~~~{.TruthTable .Partial system="gamutPND" options="nodash nocounterexample autoAtoms" points=".25"}
+4.5 p\/q
+| T - F
+~~~
