@@ -1,7 +1,8 @@
 <br>
 
 # What are truth tables?
-[Back to the landing page](https://carnap.io/shared/emeskhid@uci.edu/0landingPage.md)
+[Back to the landing page](https://carnap.io/shared/emeskhid@uci.edu/0landingPage.md) <br>
+[Back to the Week 1 materials](https://carnap.io/shared/emeskhid@uci.edu/1Week.md)
 
 <video controls width="500" src="https://helenmeskhidze.github.io/Videos/w1/What%20are%20truth%20tables%3F.mp4" /> </video>
 
@@ -16,17 +17,17 @@ Note: The truth-tables below come pre-populated with a row corresponding to each
 *Tip: Work from the inside out! First, look inside the parenthesis and work your way out.*
 
 
-<video controls width="300" src="https://helenmeskhidze.github.io/Examples%20for%20videos/TruthTables.mp4" /> </video> 
+<video controls width="300" src="https://helenmeskhidze.github.io/Examples%20for%20videos/TruthTables.mp4" /> </video>
 
-Example truth table to follow along with the video: 
+Example truth table to follow along with the video:
 
 ~~~{.TruthTable .Simple system="gamutPND" options="nodash nocounterexample autoAtoms" submission="none"}
  (p/\q)
 ~~~
 
-Notes: You must fill in all the rows of the truth table. In the below excercises, the columns for the atomics are already filled in for you but in other examples, they may not be! 
+Notes: You must fill in all the rows of the truth table. In the below excercises, the columns for the atomics are already filled in for you but in other examples, they may not be!
 
-## Exercises 
+## Exercises
 
 ~~~{.TruthTable .Simple system="gamutPND" options="nodash nocounterexample autoAtoms" submission="none"}
  (p\/q)
@@ -51,10 +52,10 @@ Notes: You must fill in all the rows of the truth table. In the below excercises
 ~~~{.TruthTable .Simple system="gamutPND" options="nodash nocounterexample autoAtoms" submission="none"}
  ((p/\q)\/(p\/q))
 ~~~
-## How does this work by hand? 
+## How does this work by hand?
 Here is a video working the same example as the above video but by hand. (Remember your problem sets will be done by hand!)
 
 
-<video controls width="500" src="https://helenmeskhidze.github.io/Examples%20for%20videos/TruthTablesByHandExample.mp4" /> </video> 
+<video controls width="500" src="https://helenmeskhidze.github.io/Examples%20for%20videos/TruthTablesByHandExample.mp4" /> </video>
 
 <br>

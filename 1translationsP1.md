@@ -1,8 +1,9 @@
 <br>
 
-# How do I translate English into (Sentential) Logic? 
+# How do I translate English into (Sentential) Logic?
 ## Part 1
-[Back to the landing page](https://carnap.io/shared/emeskhid@uci.edu/0landingPage.md)
+[Back to the landing page](https://carnap.io/shared/emeskhid@uci.edu/0landingPage.md) <br>
+[Back to the Week 1 materials](https://carnap.io/shared/emeskhid@uci.edu/1Week.md)
 
 <video controls width="500" src="https://helenmeskhidze.github.io/Videos/w1/How%20do%20I%20translate%20English%20into%20Sentential%20Logic%3F%20p1.mp4" /> </video>
 
@@ -32,7 +33,7 @@ Here is an easy three-step recipe for translating:
 
 <br>
 
-## Translations 
+## Translations
 
 In the following examples, we use the abbreviations:
 
@@ -41,9 +42,9 @@ In the following examples, we use the abbreviations:
 <p style="margin-left: 40px"> $b$ = Briana stays at the office</p>
 
 
-<video controls width="500" src="https://helenmeskhidze.github.io/Examples%20for%20videos/Translation.mp4" /> </video> 
+<video controls width="500" src="https://helenmeskhidze.github.io/Examples%20for%20videos/Translation.mp4" /> </video>
 
-Example to follow along with the video-- translate the following: 
+Example to follow along with the video-- translate the following:
 
 ~~~{.Translate .Prop system="gamutPND" submission="none"}
   a /\ b : Anthony attends the meeting and Briana stays at the office.
@@ -51,7 +52,7 @@ Example to follow along with the video-- translate the following:
 
 ## Translation Excercises
 
-Use the same abbreviations as above (copied again below) to translate: 
+Use the same abbreviations as above (copied again below) to translate:
 
 <p style="margin-left: 40px"> $a$ = Anthony attends the meeting</p>
 <p style="margin-left: 40px"> $b$ = Briana stays at the office</p>
