@@ -5,7 +5,8 @@
 
 <br>
 
-Overview of the week: 
+Recording of our Monday meeting will be posted here. 
+Topics covered include: introduction to the course and its structure, how to succeed in this course, assignment types and grading. 
 
 Topics for this week: 
 
@@ -17,8 +18,10 @@ Topics for this week:
 
 <br> 
 
-Practice Problems:
+Practice Problems (complete by Friday, 5pm):
 
 - [Week 1 Practice Problems](https://carnap.io/shared/emeskhid@uci.edu/1PracticeProblems.md)
+
+Once you've completed the practice problems, be sure to complete the reflection about them on Canvas (due Saturday, 5pm). 
 
 <br>
