@@ -7,13 +7,15 @@
 *Please complete the problems below by 5pm Friday April 2. This assignment will be graded for completion and 20% of the assignment grade is the reflection you will submit on Canvas (due Saturday, April 3 at 5pm).
 <br>
 Please make sure you click submit or your answer will not be recorded! Note also that Carnap will not show you which questions you've submitted if you reload the page, so either complete them all in one sitting or keep your own record of what you've submitted.*
+
 ***
 
 This set of practice problems consists of 16 problems falling into 4 categories:
-  - general content questions
-  - questions about wffs
-  - practice with translations
-  - practice with truth tables
+
+- general content questions
+- questions about wffs
+- practice with translations
+- practice with truth tables
 
 ### General content questions
 
@@ -28,7 +30,7 @@ This set of practice problems consists of 16 problems falling into 4 categories:
 | Consequent.
 | Implicative.
 
-1.3 What do we call A and B in A\/B?
+1.3 What do we call A and B in A \/ B?
 | Antecedents.
 | * Disjuncts.
 | Consequents.
@@ -57,15 +59,15 @@ This set of practice problems consists of 16 problems falling into 4 categories:
 | yes
 | *no
 
-2.3 Is (~~~R/\A) a wff?
+2.3 Is (~~~R /\ A) a wff?
 | *yes
 | no
 
-2.4 Is (P->(Q->R(->S))) a wff?
+2.4 Is (P -> (Q -> R( -> S))) a wff?
 | yes
 | *no
 
-2.5 Is (P->(Q->(R->S))) a wff?
+2.5 Is (P -> (Q -> (R -> S))) a wff?
 | *yes
 | no
 ~~~
@@ -92,7 +94,9 @@ This set of practice problems consists of 16 problems falling into 4 categories:
 
 3.3 (e/\r)->p : A patient was considered to have a previous diagnosis of asthma if they were enrolled in the pulmonary clinic with the diagnosis of asthma and they were receiving chronic bronchodilator therapy.
 
-3.4 (e/\(r/\f))->p : A patient is considered to have a previous is both receiving therapy and enrolled in a pulmonary clinic
+3.4 (e/\(r/\f))->p : A patient is considered to have a previous is both receiving therapy and enrolled in a pulmonary clinic.
+
+3.5 (p -> ((e \/ r) /\ (e /\ r))) : If a patient has a previous asthma diagnosis, then it must be the case that either they were enrolled in the pulmonary clinic with the diagnosis of asthma or they were receiving therapy but it cannot be the case that both are true.
 
 ~~~
 
@@ -117,11 +121,11 @@ The following homework problems are intended to help you *internalize* truth-tab
 ~~~
 
 ~~~{.TruthTable .Partial system="gamutPND" options="nodash nocounterexample autoAtoms"  points=".25"}
-4.4 p/\q
+4.4 p->q
 | T - F
 ~~~
 
 ~~~{.TruthTable .Partial system="gamutPND" options="nodash nocounterexample autoAtoms" points=".25"}
 4.5 p\/q
-| T - F
+| T - T
 ~~~

@@ -80,8 +80,6 @@ Some examples from Eugenia Cheng's book *The Art of Logic in an Illogical World*
 
 ![Negation vs Opposite Example 1](https://helenmeskhidze.github.io/Images/NegationOpposite1.png)
 
-<br>
-
 ![Negation vs Opposite Example 2](https://helenmeskhidze.github.io/Images/NegationOpposite2.png)
 
 Cheng asks us to image a greyscale from white to black. On the one hand, saying something is the opposite of white means that it's black. On the other hand, saying something is not white could mean its a little grey, pretty grey, almost black, or all black.
