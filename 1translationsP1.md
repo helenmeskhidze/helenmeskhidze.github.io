@@ -51,7 +51,11 @@ Example to follow along with the video-- translate the following:
 
 ## Translation Excercises
 
-Use the same abbreviations as above to translate: 
+Use the same abbreviations as above (copied again below) to translate: 
+<p style="margin-left: 40px"> $a$ = Anthony attends the meeting</p>
+<p style="margin-left: 40px"> $b$ = Briana stays at the office</p>
+
+
 
 ~~~{.Translate .Prop system="gamutPND" submission="none"}
   a \/ ~b : Either Anthony attends the meeting or Briana does not stay at the office.
